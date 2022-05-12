@@ -1,0 +1,66 @@
+.main {
+    text-align: center;
+    margin-right: auto;
+    margin-left:auto ;
+ 
+}
+
+.main .content-title{
+    font-size: 40px;
+   
+   
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+
+}
+
+.main a{
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.fb{
+    background-color: blue;
+    color: white;
+    border-radius: 80%;
+    padding: 8px 14px;
+}
+
+.twitter{
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 80%;
+    padding:8px 10px;
+    
+}
+.google{
+    background-color: rgb(187, 17, 17);
+    color: white;
+    border-radius: 50%;
+    padding: 8px;
+}
+
+.ok{
+    background-color: orange;
+    color: white;
+    border-radius: 50%;
+    padding: 8px 12px;
+}
+/* .vk{
+    background-color: teal;
+    color: white;
+} */
+
+.pinteres{
+    background-color: rgb(167, 7, 7);
+    border-radius: 80%;
+    color: white;
+    padding: 8px 12px;
+}
+.mail
+{
+    color: white;
+    background-color: rgb(40, 40, 218);
+    border-radius: 80%;
+    padding: 12px 12px;
+}

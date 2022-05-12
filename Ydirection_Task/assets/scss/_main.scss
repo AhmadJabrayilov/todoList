@@ -1,0 +1,350 @@
+#intro{
+    background-color: $color-mat-wthite;
+}
+header{
+    position: sticky;
+    top: 0;
+}
+.intro-wrapper{
+    display: flex;
+    padding: 80px 40px 90px 30px;
+    .intro-content{
+        padding-top: 50px;
+        h1{
+            font-weight: 700;
+            padding-bottom: 10px;
+            padding-top: 8px;
+        }
+        p{
+            font-size: 13px;
+            margin-top: 15px;
+            margin-bottom:15px ;
+            color: $color-sub-text;
+        }
+    }
+}
+.testdiv{
+    padding: 15px !important;
+    background-color: #FFF2E5;
+}
+
+.intro-btn {
+  .see-more {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: 500;
+    padding: 6px 30px;
+    background-color: #fff;
+    border: 2px solid #3498db;
+    border-radius: 6px;
+    transition: all 0.3s ease-in;
+    &:hover {
+      background-color: #3498db;
+      color: #fff;
+    }
+  }
+  .download{
+    padding: 6px 22px;
+    background-color: $color-button;
+    color: #FFF;
+    border: 2px solid $color-button;
+    border-radius:6px;
+    margin-left: 10px;
+  }
+}
+.connect-content{
+    padding: 90px 0 0 0;
+    h6{
+        font-size: 13px;
+        font-weight: 600;
+        color: $color-button;
+        
+    }
+    h3{
+        font-size: 40px;
+        font-weight: 700;
+    }
+    p{
+        color: $color-sub-text;
+    }
+}
+.pad-15{
+    height: 100%;
+    padding: 5px;
+}
+.yt-fuild{
+    // !!!!!! col-4 e background color verdiyin ucun bitmishmirmish
+    // background-color:#FFF2E5 ;
+    // padding: 45px 50px 30px 50px;
+    // margin
+    h4{
+        font-size: 18px;
+        margin-top: 10px;
+        margin-bottom: 18px;
+    }
+    img{
+        width: 28%;
+    }
+    p{
+        font-size: 15px;
+        color: $color-sub-text;
+    }
+}
+
+.eye-fuild{
+    background-color: $color-mat-wthite;
+    // padding: 45px 50px 30px 
+    // 50px;
+    // margin
+    h4{
+        font-size: 18px;
+        margin-top: 10px;
+        margin-bottom: 18px;
+    }
+    img{
+        width: 28%;
+    }
+    p{
+        font-size: 15px;
+        color: $color-sub-text;
+    }
+}
+.android-fuild{
+    background-color:darken($color-mat-wthite, 2.5%);
+    // padding: 45px 50px 30px 50px;
+    // margin-right:0;
+    h4{
+        font-size: 18px;
+        margin-top: 10px;
+        margin-bottom: 18px;
+    }
+    img{
+        width: 28%;
+    }
+    p{
+        font-size: 15px;
+        color: $color-sub-text;
+    }
+}
+.fuilds-item{
+    padding: 30px 0 80px 0px;
+}
+
+.data-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:80px 60px ;
+    background-color: $color-mat-wthite;
+    .data-photo{
+       img{
+           width: 70%;
+       }
+    }
+    .data-content{
+        h5{
+            font-size: 34px;
+            font-weight: 700;
+        }
+        p{
+            margin: 15px 0;
+        }
+        .data-list{
+            list-style-type: none;
+            margin: 25px 0; 
+            padding: 0;
+            li{
+                margin: 15px 0;
+            }
+            img{
+                margin-right: 10px;
+            }
+        }
+    }
+}
+
+// !!!!!
+.definition-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $color-mat-wthite;
+    padding:20px 60px ;
+    .definition-photo{
+       img{
+           width: 80%;
+           padding-left: 50px;
+           padding-top: 40px;
+       }
+    }
+
+    .definition-content{
+        padding-left: 60px;
+        h5{
+            font-size: 34px;
+            font-weight: 700;
+        }
+        p{
+            margin: 15px 0;
+        }
+        .definition-list{
+            list-style-type: none;
+            margin: 25px 0; 
+            padding: 0;
+            li{
+                margin: 15px 0;
+            }
+            img{
+                margin-right: 10px;
+            }
+        }
+        }
+}
+
+.result-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 75px;
+    span{
+        font-size: 14px;
+        color: $color-button;
+        font-weight: 600;
+        margin-bottom: 15px;
+    }
+    h3{
+        text-align: center;
+        font-size: 34px;
+        font-weight: 700;;
+    }
+}
+.mobile-col{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    .mobile-stat{
+        font-weight: 700;
+        font-size: 28px;
+    }
+    .mobile-user{
+        color: $color-sub-text;
+    }
+    .mobile{
+        text-align: center;
+        img{
+            width: 40%;
+        }
+    }
+
+}
+.col-views{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    .views-stat{
+        font-weight: 700;
+        font-size: 28px;
+    }
+    .views-user{
+        color: $color-sub-text;
+    }
+    .views{
+        text-align: center;
+        img{
+            width: 40%;
+        }
+    }
+
+}
+.col-monthly{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    .monthly-stat{
+        font-weight: 700;
+        font-size: 28px;
+    }
+    .monthly-user{
+        color: $color-sub-text;
+    }
+    .monthly{
+        text-align: center;
+        img{
+            width: 40%;
+        }
+    }
+
+}
+.annual-col{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    .annual-stat{
+        font-weight: 700;
+        font-size: 28px;
+    }
+    .annual-user{
+        color: $color-sub-text;
+    }
+    .annual{
+        text-align: center;
+        img{
+            width: 40%;
+        }
+    }
+
+}
+.result-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 20px;
+} 
+.trail-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+}
+.your-trail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center  ;
+    h5{
+        font-size: 14px;
+        color: $color-button;
+    }
+    h3{
+        font-size: 34px;
+        color: #383B61;
+        font-weight: 700;
+    }   
+    
+}
+.email-address{
+    display: flex;
+    justify-content: center ;
+    padding: 50px 0 ;
+    
+    input{
+        background-color: $color-mat-wthite;
+        border: 1px solid $color-mat-wthite; 
+        padding: 0 150px 0 20px ;
+        height: 45px;
+        border-color: $color-mat-wthite ;
+        border-radius:6px 0px 6px 0px;
+    }
+    .btn-signin{
+        background-color: $color-button;
+        color: white;
+        height: 45px;
+        font-weight: 600;;
+        padding: 0 50px 0 50px;
+        border: 1px solid transparent;
+        border-radius: 0 6px 6px 0  px;
+        margin-left: -5px;
+    }
+}

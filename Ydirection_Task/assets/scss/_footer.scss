@@ -1,0 +1,40 @@
+footer{
+    background-color: $color-mat-wthite;
+}
+.footer-connect{
+    a{
+        text-decoration: none;
+        font-size: 18px;
+        letter-spacing: 5px;
+        color: $color-button;
+        font-weight: 600;
+    }
+}
+.footer-wrapper{
+    display: flex;
+    align-items: center;
+    padding: 35px 0;
+    .footer-links{
+        ul{
+            margin-bottom: 0;
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+        }
+    }
+    .footer-icon{
+        ul{
+            margin-bottom: 0;
+            list-style: none;
+            display: flex;
+            justify-content:center;
+            li{
+                padding-left: 30px;
+                color: $color-button;
+                i{
+                    font-size: 22px;
+                }
+            }
+        }
+    }
+}
